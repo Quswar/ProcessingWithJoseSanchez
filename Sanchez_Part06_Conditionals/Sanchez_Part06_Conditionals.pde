@@ -14,9 +14,8 @@ void drawEllipse(float X, float Y)
   {
     for (int j=0;j<20;j++)
     {
-      if (i>=0 && i<=6)fill(255,0,0);
-      else if (i>6 && i<=12) fill(0,255,0);
-      else if (i>12 && i<=20) fill(0,0,255);
+      if (i>=0 && i<=5)fill(255);
+      else if (i>5 && i<=20) fill(0,255,0);
       ellipse(X+(i*20),Y+(j*20),20,20);
     }
   } 
